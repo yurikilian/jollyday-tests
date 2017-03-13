@@ -71,7 +71,7 @@ public class HolidayManagerTest {
 		HolidayManager manager = HolidayManager.getInstance(ManagerParameters.create(HolidayCalendar.BRAZIL));
 
 		manager.getHolidays(2017).stream().forEach(h -> {
-			System.out.println(h.getPropertiesKey());
+			System.out.println(h.getPropertiesKey().length());
 		});
 
 	}
