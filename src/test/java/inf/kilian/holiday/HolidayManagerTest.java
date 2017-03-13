@@ -1,4 +1,4 @@
-package inf.kilian.holyday;
+package inf.kilian.holiday;
 
 import java.io.File;
 import java.net.MalformedURLException;
